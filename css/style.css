@@ -2,32 +2,68 @@
   width: 200px;
   height: 200px;
 }
-.red {
-  background-color: red;
+.text {
+ vertical-align: middle; 
+width: 44px;
+height: 20px;
+justify-content: center;
 }
-.yellow {
-  background-color: yellow;
+
+.logo-left {
+  width: Hug (101px)px;
+height: Hug (27px)px;
+vertical-align: middle;
+justify-content: left;
+
 }
-.blue {
-  background-color: blue;
+
+
+.logo-right {
+  width: Hug (100px)px;
+height: Hug (48px)px;
+
+gap: 10px;
+border-radius: 32px 0px 0px 0px;
+opacity: 0px;
+
+justify-content: right;
+
 }
-.grey {
-  background-color: gray;
-}
-.wraper {
+
+.heder {
   display: flex;
-  /* justify-content: space-between; */
-  /* column-gap: 150px;
-    row-gap: 30px; */
-  gap: 30px 150px;
+  width: Fixed (1,440px)px;
+height: Fixed (96px)px;
+padding: 17px 32px 17px 32px;
+gap: 0px;
+justify-content: center;  
+vertical-align: middle;
+ gap: 328px 20px;
+opacity: 0px;
+
 }
 
 .container {
-    max-width: 1170px;
-    width: 80%;
+    width: 100%px;
+    
     height: 500px;
     margin: 0 auto;
-    background-color: lightblue;
+    
+}
+.first {
+  width: 540px;
+height: 24px;
+gap: 0px;
+opacity: 0px;
+font-family: Inter;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+
 }
 
 
@@ -37,7 +73,7 @@
     max-width: 1140px;
     width: 90%;
     margin: 0 auto;
-    background-color: lightseagreen;
+    
 }
 .flex-footer {
     display: flex;
@@ -53,6 +89,7 @@
     max-width: 100px;
     width: 100%;
     margin-right: 101.6px;
+    color: #ffffff;
 }
 .logo-footer {
     margin-right: 210.6px;
