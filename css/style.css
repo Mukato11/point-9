@@ -17,6 +17,44 @@ justify-content: left;
 
 }
 
+.container {
+  position: relative;
+  width: 100%px;    
+  height: 500px;
+  margin: 0 auto;
+}
+
+.center {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  font-size: 18px;
+  color: #ffffff;
+}
+
+.title-baner 
+{
+  width: 40px;
+  height: 96px;
+   
+  color: #ffffff;
+  font-family: Inter;
+font-size: 40px;
+font-weight: 900;
+line-height: 48px;
+letter-spacing: -0.5px;  
+
+}
+
+
+
+
+
+
+
+
+
 
 .logo-right {
   width: Hug (100px)px;
@@ -43,13 +81,7 @@ opacity: 0px;
 
 }
 
-.container {
-    width: 100%px;
-    
-    height: 500px;
-    margin: 0 auto;
-    
-}
+
 .first {
   width: 540px;
 height: 24px;
